@@ -104,5 +104,74 @@
   <ItemGroup>
     <None Include="Resources\close %285%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\budget %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\budget %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\growth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technocrat %285%29.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
