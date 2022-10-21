@@ -68,18 +68,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -90,88 +90,69 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\TECHNO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TECHNO.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\minimize %287%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\maximize %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close %285%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat %283%29.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat %284%29.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\budget %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\accounting.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\briefcase.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\briefcase %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\budget %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bank.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\growth.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wallet.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\menu %281%291.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat %284%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat %285%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\minimize.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\maximize %2811%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\info.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\earphone.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technocrat %285%29.gif" />
+    <Content Include="Resources\accounting.png" />
+    <Content Include="Resources\arrows.png" />
+    <Content Include="Resources\bank.png" />
+    <Content Include="Resources\briefcase %281%29.png" />
+    <Content Include="Resources\briefcase.png" />
+    <Content Include="Resources\budget %281%29.png" />
+    <Content Include="Resources\budget %282%29.png" />
+    <Content Include="Resources\budget.png" />
+    <Content Include="Resources\close %281%29.png" />
+    <Content Include="Resources\close %282%29.png" />
+    <Content Include="Resources\close %283%29.png" />
+    <Content Include="Resources\close %284%29.png" />
+    <Content Include="Resources\close %285%29.png" />
+    <Content Include="Resources\close.png" />
+    <Content Include="Resources\cross.png" />
+    <Content Include="Resources\earphone.png" />
+    <Content Include="Resources\growth.png" />
+    <Content Include="Resources\info.png" />
+    <Content Include="Resources\maximize %281%29.png" />
+    <Content Include="Resources\maximize %2810%29.png" />
+    <Content Include="Resources\maximize %2811%29.png" />
+    <Content Include="Resources\maximize %282%29.png" />
+    <Content Include="Resources\maximize %283%29.png" />
+    <Content Include="Resources\maximize %284%29.png" />
+    <Content Include="Resources\maximize %285%29.png" />
+    <Content Include="Resources\maximize %286%29.png" />
+    <Content Include="Resources\maximize %287%29.png" />
+    <Content Include="Resources\maximize %288%29.png" />
+    <Content Include="Resources\maximize %289%29.png" />
+    <Content Include="Resources\maximize.png" />
+    <Content Include="Resources\menu %281%29.png" />
+    <Content Include="Resources\menu.png" />
+    <Content Include="Resources\minimize %281%29.png" />
+    <Content Include="Resources\minimize %282%29.png" />
+    <Content Include="Resources\minimize %283%29.png" />
+    <Content Include="Resources\minimize %284%29.png" />
+    <Content Include="Resources\minimize %285%29.png" />
+    <Content Include="Resources\minimize %286%29.png" />
+    <Content Include="Resources\minimize %287%29.png" />
+    <Content Include="Resources\minimize.png" />
+    <Content Include="Resources\phonebook.png" />
+    <Content Include="Resources\salary %281%29.png" />
+    <Content Include="Resources\salary %282%29.png" />
+    <Content Include="Resources\salary %283%29.png" />
+    <Content Include="Resources\salary.ico" />
+    <Content Include="Resources\salary.png" />
+    <Content Include="Resources\TECHNO.gif" />
+    <Content Include="Resources\TECHNO.png" />
+    <Content Include="Resources\Technocrat %281%29.gif" />
+    <Content Include="Resources\Technocrat %281%29.png" />
+    <Content Include="Resources\Technocrat %282%29.gif" />
+    <Content Include="Resources\Technocrat %282%29.png" />
+    <Content Include="Resources\Technocrat %283%29.gif" />
+    <Content Include="Resources\Technocrat %283%29.png" />
+    <Content Include="Resources\Technocrat %284%29.gif" />
+    <Content Include="Resources\Technocrat %284%29.png" />
+    <Content Include="Resources\Technocrat %285%29.gif" />
+    <Content Include="Resources\Technocrat %285%29.png" />
+    <Content Include="Resources\Technocrat.gif" />
+    <Content Include="Resources\Technocrat.mp4" />
+    <Content Include="Resources\Technocrat.png" />
+    <Content Include="Resources\wallet %281%29.png" />
+    <Content Include="Resources\wallet.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

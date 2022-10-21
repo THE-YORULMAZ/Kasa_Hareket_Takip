@@ -193,16 +193,6 @@ namespace Kasa_Hareket_Takip.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap maximize__1_1 {
-            get {
-                object obj = ResourceManager.GetObject("maximize (1)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap maximize__11_ {
             get {
                 object obj = ResourceManager.GetObject("maximize (11)", resourceCulture);
@@ -233,39 +223,9 @@ namespace Kasa_Hareket_Takip.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap maximize__3_1 {
-            get {
-                object obj = ResourceManager.GetObject("maximize (3)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap maximize__4_ {
             get {
                 object obj = ResourceManager.GetObject("maximize (4)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap maximize__4_1 {
-            get {
-                object obj = ResourceManager.GetObject("maximize (4)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap maximize__4_2 {
-            get {
-                object obj = ResourceManager.GetObject("maximize (4)2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,16 +263,6 @@ namespace Kasa_Hareket_Takip.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap maximize__7_1 {
-            get {
-                object obj = ResourceManager.GetObject("maximize (7)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap maximize__8_ {
             get {
                 object obj = ResourceManager.GetObject("maximize (8)", resourceCulture);
@@ -336,16 +286,6 @@ namespace Kasa_Hareket_Takip.Properties {
         internal static System.Drawing.Bitmap menu__1_ {
             get {
                 object obj = ResourceManager.GetObject("menu (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap menu__1_1 {
-            get {
-                object obj = ResourceManager.GetObject("menu (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -17,7 +17,14 @@ namespace Kasa_Hareket_Takip
             InitializeComponent();
         }
         bool islem = false;
-        private void timer1_Tick(object sender, EventArgs e)
+        
+
+        private void Animation_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer2_Tick_1(object sender, EventArgs e)
         {
             if (islem == false)
             {
@@ -35,7 +42,7 @@ namespace Kasa_Hareket_Takip
                     Form1 form1 = new Form1();
                     form1.Show();
                     this.Hide();
-                    timer1.Enabled = false;
+                    timer2.Enabled = false;
                 }
             }
         }
