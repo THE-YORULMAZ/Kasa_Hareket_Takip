@@ -18,6 +18,18 @@ namespace Kasa_Hareket_Takip
             InitializeComponent();
         }
 
+        public void loadform(object Form)
+        {
+            if (this.mainpanel.Controls.Count > 0)
+                this.mainpanel.Controls.RemoveAt(0);
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.mainpanel.Controls.Add(f);
+            this.mainpanel.Tag = f;
+            f.Show();
+        }
+
         private void sidebarTimer_Tick(object sender, EventArgs e)
         {
             if (sidebarExpand)
@@ -83,17 +95,19 @@ namespace Kasa_Hareket_Takip
 
         private void button7_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("BU UYGULAMA ORİJİNAL OLARAK ÖZCAN YORULMAZ TARAFINDAN Z TECHNOLOGY MARKASI ALTINDA YAPILMIŞTIR TÜM HAKLARI SAKLIDIR.2022", "Z TECHNOLOGY ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            loadform(new Iletisim());
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("İLETİŞİM : theyorulmazz42@gmail.com adresinden bize ulaşabilirsiniz", "Z TECHNOLOGY", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            loadform(new Kasa());
         }
+
         private bool dragging = false;
         private Point dragCursorPoint;
         private Point dragFormPoint;
-        private void panel5_MouseDown(object sender, MouseEventArgs e)
+
+        private void Panel5_MouseDown(object sender, MouseEventArgs e)
         {
             dragging = true;
             dragCursorPoint = Cursor.Position;
@@ -155,6 +169,26 @@ namespace Kasa_Hareket_Takip
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
             dragging = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            loadform(new AnaSayfa());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            loadform(new Gelir());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            loadform(new Gider());
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            loadform(new Hakkinda());
         }
     }
 }

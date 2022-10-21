@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Animation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +64,61 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gelir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gelir.Designer.cs">
+      <DependentUpon>Gelir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gider.Designer.cs">
+      <DependentUpon>Gider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hakkinda.Designer.cs">
+      <DependentUpon>Hakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iletisim.Designer.cs">
+      <DependentUpon>Iletisim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasa.Designer.cs">
+      <DependentUpon>Kasa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Animation.resx">
       <DependentUpon>Animation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gelir.resx">
+      <DependentUpon>Gelir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gider.resx">
+      <DependentUpon>Gider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hakkinda.resx">
+      <DependentUpon>Hakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iletisim.resx">
+      <DependentUpon>Iletisim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasa.resx">
+      <DependentUpon>Kasa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +145,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\accounting.png" />
+    <None Include="Resources\Technocrat %2814%29.png" />
+    <None Include="Resources\Technocrat %2813%29.png" />
+    <None Include="Resources\Technocrat %2812%29.png" />
+    <None Include="Resources\Technocrat %2811%29.png" />
+    <None Include="Resources\Technocrat %2810%29.png" />
+    <None Include="Resources\Technocrat %289%29.png" />
+    <None Include="Resources\Technocrat %288%29.png" />
+    <None Include="Resources\Adsız tasarım1.png" />
+    <None Include="Resources\Technocrat %286%29.png" />
+    <None Include="Resources\home-page.png" />
+    <None Include="Resources\Adsız tasarım.png" />
     <Content Include="Resources\arrows.png" />
     <Content Include="Resources\bank.png" />
     <Content Include="Resources\briefcase %281%29.png" />
@@ -142,8 +207,10 @@
     <Content Include="Resources\Technocrat %281%29.png" />
     <Content Include="Resources\Technocrat %282%29.gif" />
     <Content Include="Resources\Technocrat %282%29.png" />
+    <None Include="Resources\Technocrat %282%291.png" />
     <Content Include="Resources\Technocrat %283%29.gif" />
     <Content Include="Resources\Technocrat %283%29.png" />
+    <None Include="Resources\Technocrat %283%291.png" />
     <Content Include="Resources\Technocrat %284%29.gif" />
     <Content Include="Resources\Technocrat %284%29.png" />
     <Content Include="Resources\Technocrat %285%29.gif" />
