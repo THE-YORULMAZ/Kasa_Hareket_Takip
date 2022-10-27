@@ -70,6 +70,8 @@
             // 
             // sidebar
             // 
+            this.sidebar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.sidebar.BackColor = System.Drawing.Color.DimGray;
             this.sidebar.Controls.Add(this.panel1);
             this.sidebar.Controls.Add(this.panel2);
@@ -78,10 +80,9 @@
             this.sidebar.Controls.Add(this.panel7);
             this.sidebar.Controls.Add(this.panel6);
             this.sidebar.Controls.Add(this.panel8);
-            this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sidebar.Location = new System.Drawing.Point(0, 0);
+            this.sidebar.Location = new System.Drawing.Point(0, 46);
             this.sidebar.MaximumSize = new System.Drawing.Size(171, 1100);
-            this.sidebar.MinimumSize = new System.Drawing.Size(50, 402);
+            this.sidebar.MinimumSize = new System.Drawing.Size(50, 500);
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(171, 500);
             this.sidebar.TabIndex = 0;
@@ -95,6 +96,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(168, 100);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // label1
@@ -302,9 +304,9 @@
             this.panel5.Controls.Add(this.button5);
             this.panel5.Controls.Add(this.button4);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(171, 0);
+            this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(629, 49);
+            this.panel5.Size = new System.Drawing.Size(800, 49);
             this.panel5.TabIndex = 1;
             this.panel5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel5_MouseDown);
             this.panel5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel5_MouseMove);
@@ -336,7 +338,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(510, 3);
+            this.button6.Location = new System.Drawing.Point(681, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(39, 38);
             this.button6.TabIndex = 4;
@@ -349,7 +351,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(550, -2);
+            this.button5.Location = new System.Drawing.Point(721, -2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(42, 48);
             this.button5.TabIndex = 3;
@@ -362,7 +364,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(591, 0);
+            this.button4.Location = new System.Drawing.Point(762, 0);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(37, 44);
             this.button4.TabIndex = 2;
