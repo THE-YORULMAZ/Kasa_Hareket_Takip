@@ -63,6 +63,16 @@ namespace Kasa_Hareket_Takip.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap _67da6524628707_5633767c762c4 {
+            get {
+                object obj = ResourceManager.GetObject("67da6524628707.5633767c762c4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap accounting {
             get {
                 object obj = ResourceManager.GetObject("accounting", resourceCulture);
@@ -643,9 +653,29 @@ namespace Kasa_Hareket_Takip.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap Technocrat__5_2 {
+            get {
+                object obj = ResourceManager.GetObject("Technocrat (5)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Technocrat__6_ {
             get {
                 object obj = ResourceManager.GetObject("Technocrat (6)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Technocrat__6_1 {
+            get {
+                object obj = ResourceManager.GetObject("Technocrat (6)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -676,6 +706,16 @@ namespace Kasa_Hareket_Takip.Properties {
         internal static System.Drawing.Bitmap Technocrat1 {
             get {
                 object obj = ResourceManager.GetObject("Technocrat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap user__4_ {
+            get {
+                object obj = ResourceManager.GetObject("user (4)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

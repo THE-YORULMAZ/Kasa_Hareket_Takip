@@ -96,6 +96,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoundPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +147,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\67da6524628707.5633767c762c4.jpg" />
     <Content Include="Resources\accounting.png" />
     <None Include="Resources\Technocrat %2814%29.png" />
     <None Include="Resources\Technocrat %2813%29.png" />
@@ -215,9 +219,12 @@
     <Content Include="Resources\Technocrat %284%29.png" />
     <Content Include="Resources\Technocrat %285%29.gif" />
     <Content Include="Resources\Technocrat %285%29.png" />
+    <None Include="Resources\Technocrat %286%291.png" />
+    <None Include="Resources\Technocrat %285%291.png" />
     <Content Include="Resources\Technocrat.gif" />
     <Content Include="Resources\Technocrat.mp4" />
     <Content Include="Resources\Technocrat.png" />
+    <None Include="Resources\user %284%29.png" />
     <Content Include="Resources\wallet %281%29.png" />
     <Content Include="Resources\wallet.png" />
   </ItemGroup>
