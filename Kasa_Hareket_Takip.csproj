@@ -94,11 +94,13 @@
     <Compile Include="Kasa.Designer.cs">
       <DependentUpon>Kasa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kasa_Hareket_TakipDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kasa_Hareket_TakipDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoundPictureBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +130,18 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="Kasa_Hareket_TakipDataSet.xsc">
+      <DependentUpon>Kasa_Hareket_TakipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Kasa_Hareket_TakipDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Kasa_Hareket_TakipDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Kasa_Hareket_TakipDataSet.xss">
+      <DependentUpon>Kasa_Hareket_TakipDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -177,6 +191,7 @@
     <Content Include="Resources\earphone.png" />
     <Content Include="Resources\growth.png" />
     <Content Include="Resources\info.png" />
+    <None Include="Resources\magnifying-glass %281%29.png" />
     <Content Include="Resources\maximize %281%29.png" />
     <Content Include="Resources\maximize %2810%29.png" />
     <Content Include="Resources\maximize %2811%29.png" />
