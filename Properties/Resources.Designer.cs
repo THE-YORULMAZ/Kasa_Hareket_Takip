@@ -723,6 +723,16 @@ namespace Kasa_Hareket_Takip.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap TECHNOLOGY {
+            get {
+                object obj = ResourceManager.GetObject("TECHNOLOGY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap user__4_ {
             get {
                 object obj = ResourceManager.GetObject("user (4)", resourceCulture);

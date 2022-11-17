@@ -43,8 +43,8 @@
             this.btnguncelle = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.rtxtgider = new System.Windows.Forms.RichTextBox();
-            this.txttarih = new System.Windows.Forms.TextBox();
             this.btncancel = new System.Windows.Forms.Button();
             this.btnsave = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -56,8 +56,8 @@
             this.txttutar = new System.Windows.Forms.TextBox();
             this.txtfis = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.rtxtgunc = new System.Windows.Forms.RichTextBox();
-            this.txttarihg = new System.Windows.Forms.TextBox();
             this.btniptalg = new System.Windows.Forms.Button();
             this.btnedit = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -254,8 +254,8 @@
             // tabPage2
             // 
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage2.Controls.Add(this.dateTimePicker1);
             this.tabPage2.Controls.Add(this.rtxtgider);
-            this.tabPage2.Controls.Add(this.txttarih);
             this.tabPage2.Controls.Add(this.btncancel);
             this.tabPage2.Controls.Add(this.btnsave);
             this.tabPage2.Controls.Add(this.label5);
@@ -274,6 +274,16 @@
             this.tabPage2.Text = "GİDER EKLE";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dateTimePicker1.CustomFormat = "d-M-yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(254, 70);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 16;
+            // 
             // rtxtgider
             // 
             this.rtxtgider.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -282,14 +292,6 @@
             this.rtxtgider.Size = new System.Drawing.Size(246, 112);
             this.rtxtgider.TabIndex = 14;
             this.rtxtgider.Text = "";
-            // 
-            // txttarih
-            // 
-            this.txttarih.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txttarih.Location = new System.Drawing.Point(254, 70);
-            this.txttarih.Name = "txttarih";
-            this.txttarih.Size = new System.Drawing.Size(128, 20);
-            this.txttarih.TabIndex = 13;
             // 
             // btncancel
             // 
@@ -403,8 +405,8 @@
             // tabPage3
             // 
             this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage3.Controls.Add(this.dateTimePicker2);
             this.tabPage3.Controls.Add(this.rtxtgunc);
-            this.tabPage3.Controls.Add(this.txttarihg);
             this.tabPage3.Controls.Add(this.btniptalg);
             this.tabPage3.Controls.Add(this.btnedit);
             this.tabPage3.Controls.Add(this.label6);
@@ -422,6 +424,16 @@
             this.tabPage3.Text = "GÜNCELLE";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dateTimePicker2.CustomFormat = "d-M-yyyy";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Location = new System.Drawing.Point(253, 72);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 28;
+            // 
             // rtxtgunc
             // 
             this.rtxtgunc.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -430,15 +442,6 @@
             this.rtxtgunc.Size = new System.Drawing.Size(246, 112);
             this.rtxtgunc.TabIndex = 26;
             this.rtxtgunc.Text = "";
-            // 
-            // txttarihg
-            // 
-            this.txttarihg.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txttarihg.Location = new System.Drawing.Point(253, 72);
-            this.txttarihg.MaximumSize = new System.Drawing.Size(128, 20);
-            this.txttarihg.Name = "txttarihg";
-            this.txttarihg.Size = new System.Drawing.Size(128, 20);
-            this.txttarihg.TabIndex = 25;
             // 
             // btniptalg
             // 
@@ -604,7 +607,6 @@
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.RichTextBox rtxtgider;
-        private System.Windows.Forms.TextBox txttarih;
         private System.Windows.Forms.Button btncancel;
         private System.Windows.Forms.Button btnsave;
         private System.Windows.Forms.Label label5;
@@ -617,7 +619,6 @@
         private System.Windows.Forms.TextBox txtfis;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.RichTextBox rtxtgunc;
-        private System.Windows.Forms.TextBox txttarihg;
         private System.Windows.Forms.Button btniptalg;
         private System.Windows.Forms.Button btnedit;
         private System.Windows.Forms.Label label6;
@@ -632,5 +633,7 @@
         private System.Windows.Forms.BindingSource kasaHareketTakipDataSetBindingSource;
         private Kasa_Hareket_TakipDataSet kasa_Hareket_TakipDataSet;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }

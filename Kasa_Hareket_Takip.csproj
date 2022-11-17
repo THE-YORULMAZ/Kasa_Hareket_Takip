@@ -240,6 +240,7 @@
     <Content Include="Resources\Technocrat.mp4" />
     <Content Include="Resources\Technocrat.png" />
     <None Include="Resources\user %284%29.png" />
+    <None Include="Resources\TECHNOLOGY.png" />
     <Content Include="Resources\wallet %281%29.png" />
     <Content Include="Resources\wallet.png" />
   </ItemGroup>

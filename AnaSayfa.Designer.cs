@@ -37,7 +37,7 @@
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.Image = global::Kasa_Hareket_Takip.Properties.Resources.Technocrat__6_;
+            this.pictureBox3.Image = global::Kasa_Hareket_Takip.Properties.Resources.TECHNOLOGY;
             this.pictureBox3.Location = new System.Drawing.Point(78, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(800, 450);

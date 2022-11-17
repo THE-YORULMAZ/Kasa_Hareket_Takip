@@ -41,12 +41,10 @@
             this.btnekle = new System.Windows.Forms.Button();
             this.btnguncelle = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.gelirBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.kasa_Hareket_TakipDataSet = new Kasa_Hareket_Takip.Kasa_Hareket_TakipDataSet();
             this.btnSil = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.rtxtgelir = new System.Windows.Forms.RichTextBox();
-            this.txttarih = new System.Windows.Forms.TextBox();
             this.btncancel = new System.Windows.Forms.Button();
             this.btnsave = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -58,8 +56,8 @@
             this.txttutar = new System.Windows.Forms.TextBox();
             this.txtfis = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.rtxtgunc = new System.Windows.Forms.RichTextBox();
-            this.txttarihg = new System.Windows.Forms.TextBox();
             this.btniptalg = new System.Windows.Forms.Button();
             this.btnedit = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -70,15 +68,17 @@
             this.txtgtipg = new System.Windows.Forms.TextBox();
             this.txtgtutg = new System.Windows.Forms.TextBox();
             this.txtfisg = new System.Windows.Forms.TextBox();
+            this.gelirBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kasa_Hareket_TakipDataSet = new Kasa_Hareket_Takip.Kasa_Hareket_TakipDataSet();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.gelirTableAdapter = new Kasa_Hareket_Takip.Kasa_Hareket_TakipDataSetTableAdapters.GelirTableAdapter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gelirBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kasa_Hareket_TakipDataSet)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gelirBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kasa_Hareket_TakipDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,7 +117,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tabPage1.Controls.Add(this.btnsearch);
             this.tabPage1.Controls.Add(this.txtsearch);
             this.tabPage1.Controls.Add(this.btnekle);
@@ -139,8 +139,8 @@
             this.btnsearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnsearch.FlatAppearance.BorderSize = 0;
             this.btnsearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnsearch.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsearch.Location = new System.Drawing.Point(480, 14);
+            this.btnsearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsearch.Location = new System.Drawing.Point(482, 14);
             this.btnsearch.Name = "btnsearch";
             this.btnsearch.Size = new System.Drawing.Size(48, 30);
             this.btnsearch.TabIndex = 4;
@@ -153,7 +153,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtsearch.Location = new System.Drawing.Point(6, 17);
             this.txtsearch.Name = "txtsearch";
-            this.txtsearch.Size = new System.Drawing.Size(465, 20);
+            this.txtsearch.Size = new System.Drawing.Size(467, 20);
             this.txtsearch.TabIndex = 3;
             this.txtsearch.TextChanged += new System.EventHandler(this.txtsearch_TextChanged);
             // 
@@ -163,8 +163,8 @@
             this.btnekle.BackColor = System.Drawing.Color.Green;
             this.btnekle.FlatAppearance.BorderSize = 0;
             this.btnekle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnekle.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnekle.Location = new System.Drawing.Point(480, 50);
+            this.btnekle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnekle.Location = new System.Drawing.Point(482, 50);
             this.btnekle.MaximumSize = new System.Drawing.Size(268, 30);
             this.btnekle.MinimumSize = new System.Drawing.Size(110, 30);
             this.btnekle.Name = "btnekle";
@@ -180,8 +180,8 @@
             this.btnguncelle.BackColor = System.Drawing.Color.Aqua;
             this.btnguncelle.FlatAppearance.BorderSize = 0;
             this.btnguncelle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnguncelle.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguncelle.Location = new System.Drawing.Point(480, 86);
+            this.btnguncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnguncelle.Location = new System.Drawing.Point(482, 86);
             this.btnguncelle.MaximumSize = new System.Drawing.Size(268, 30);
             this.btnguncelle.MinimumSize = new System.Drawing.Size(110, 30);
             this.btnguncelle.Name = "btnguncelle";
@@ -233,19 +233,9 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(468, 338);
+            this.dataGridView1.Size = new System.Drawing.Size(470, 340);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // gelirBindingSource
-            // 
-            this.gelirBindingSource.DataMember = "Gelir";
-            this.gelirBindingSource.DataSource = this.kasa_Hareket_TakipDataSet;
-            // 
-            // kasa_Hareket_TakipDataSet
-            // 
-            this.kasa_Hareket_TakipDataSet.DataSetName = "Kasa_Hareket_TakipDataSet";
-            this.kasa_Hareket_TakipDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // btnSil
             // 
@@ -253,8 +243,8 @@
             this.btnSil.BackColor = System.Drawing.Color.DarkRed;
             this.btnSil.FlatAppearance.BorderSize = 0;
             this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSil.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSil.Location = new System.Drawing.Point(480, 122);
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSil.Location = new System.Drawing.Point(482, 122);
             this.btnSil.MaximumSize = new System.Drawing.Size(268, 30);
             this.btnSil.MinimumSize = new System.Drawing.Size(110, 30);
             this.btnSil.Name = "btnSil";
@@ -267,8 +257,8 @@
             // tabPage2
             // 
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage2.Controls.Add(this.dateTimePicker1);
             this.tabPage2.Controls.Add(this.rtxtgelir);
-            this.tabPage2.Controls.Add(this.txttarih);
             this.tabPage2.Controls.Add(this.btncancel);
             this.tabPage2.Controls.Add(this.btnsave);
             this.tabPage2.Controls.Add(this.label5);
@@ -288,31 +278,32 @@
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dateTimePicker1.CustomFormat = "d-M-yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(255, 69);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 15;
+            // 
             // rtxtgelir
             // 
             this.rtxtgelir.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.rtxtgelir.Location = new System.Drawing.Point(254, 190);
+            this.rtxtgelir.Location = new System.Drawing.Point(255, 189);
             this.rtxtgelir.Name = "rtxtgelir";
             this.rtxtgelir.Size = new System.Drawing.Size(246, 112);
             this.rtxtgelir.TabIndex = 14;
             this.rtxtgelir.Text = "";
-            // 
-            // txttarih
-            // 
-            this.txttarih.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txttarih.Location = new System.Drawing.Point(254, 70);
-            this.txttarih.Name = "txttarih";
-            this.txttarih.Size = new System.Drawing.Size(128, 20);
-            this.txttarih.TabIndex = 13;
-            this.txttarih.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttarih_KeyPress);
             // 
             // btncancel
             // 
             this.btncancel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btncancel.BackColor = System.Drawing.Color.DarkRed;
             this.btncancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btncancel.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(378, 308);
+            this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancel.Location = new System.Drawing.Point(379, 307);
             this.btncancel.MinimumSize = new System.Drawing.Size(122, 48);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(122, 48);
@@ -326,8 +317,8 @@
             this.btnsave.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnsave.BackColor = System.Drawing.Color.Green;
             this.btnsave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnsave.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsave.Location = new System.Drawing.Point(254, 308);
+            this.btnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsave.Location = new System.Drawing.Point(255, 307);
             this.btnsave.MinimumSize = new System.Drawing.Size(122, 48);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(122, 48);
@@ -340,10 +331,10 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(136, 190);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(137, 189);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 17);
+            this.label5.Size = new System.Drawing.Size(78, 16);
             this.label5.TabIndex = 10;
             this.label5.Text = "AÇIKLAMA :";
             // 
@@ -351,10 +342,10 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(104, 149);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(105, 148);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 17);
+            this.label4.Size = new System.Drawing.Size(105, 16);
             this.label4.TabIndex = 9;
             this.label4.Text = "GELİR TUTARI :";
             // 
@@ -362,10 +353,10 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(129, 112);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(130, 111);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 17);
+            this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 8;
             this.label3.Text = "GELİR TİPİ :";
             // 
@@ -373,10 +364,10 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(168, 73);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(169, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 17);
+            this.label2.Size = new System.Drawing.Size(54, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = "TARİH :";
             // 
@@ -384,17 +375,17 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 35);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(168, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 17);
+            this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "FİŞ NO :";
             // 
             // txttip
             // 
             this.txttip.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txttip.Location = new System.Drawing.Point(254, 108);
+            this.txttip.Location = new System.Drawing.Point(255, 107);
             this.txttip.Name = "txttip";
             this.txttip.Size = new System.Drawing.Size(128, 20);
             this.txttip.TabIndex = 4;
@@ -403,7 +394,7 @@
             // txttutar
             // 
             this.txttutar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txttutar.Location = new System.Drawing.Point(254, 146);
+            this.txttutar.Location = new System.Drawing.Point(255, 145);
             this.txttutar.Name = "txttutar";
             this.txttutar.Size = new System.Drawing.Size(128, 20);
             this.txttutar.TabIndex = 2;
@@ -411,7 +402,7 @@
             // txtfis
             // 
             this.txtfis.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtfis.Location = new System.Drawing.Point(254, 32);
+            this.txtfis.Location = new System.Drawing.Point(255, 31);
             this.txtfis.Name = "txtfis";
             this.txtfis.Size = new System.Drawing.Size(96, 20);
             this.txtfis.TabIndex = 0;
@@ -419,8 +410,8 @@
             // tabPage3
             // 
             this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage3.Controls.Add(this.dateTimePicker2);
             this.tabPage3.Controls.Add(this.rtxtgunc);
-            this.tabPage3.Controls.Add(this.txttarihg);
             this.tabPage3.Controls.Add(this.btniptalg);
             this.tabPage3.Controls.Add(this.btnedit);
             this.tabPage3.Controls.Add(this.label6);
@@ -439,6 +430,16 @@
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dateTimePicker2.CustomFormat = "d-M-yyyy";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Location = new System.Drawing.Point(253, 71);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 27;
+            // 
             // rtxtgunc
             // 
             this.rtxtgunc.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -448,21 +449,12 @@
             this.rtxtgunc.TabIndex = 26;
             this.rtxtgunc.Text = "";
             // 
-            // txttarihg
-            // 
-            this.txttarihg.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txttarihg.Location = new System.Drawing.Point(253, 72);
-            this.txttarihg.MaximumSize = new System.Drawing.Size(128, 20);
-            this.txttarihg.Name = "txttarihg";
-            this.txttarihg.Size = new System.Drawing.Size(128, 20);
-            this.txttarihg.TabIndex = 25;
-            // 
             // btniptalg
             // 
             this.btniptalg.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btniptalg.BackColor = System.Drawing.Color.DarkRed;
             this.btniptalg.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btniptalg.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btniptalg.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btniptalg.Location = new System.Drawing.Point(377, 308);
             this.btniptalg.Name = "btniptalg";
             this.btniptalg.Size = new System.Drawing.Size(122, 48);
@@ -476,7 +468,7 @@
             this.btnedit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnedit.BackColor = System.Drawing.Color.Green;
             this.btnedit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnedit.Font = new System.Drawing.Font("Elephant", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnedit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnedit.Location = new System.Drawing.Point(253, 308);
             this.btnedit.Name = "btnedit";
             this.btnedit.Size = new System.Drawing.Size(122, 48);
@@ -489,10 +481,10 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(135, 190);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 17);
+            this.label6.Size = new System.Drawing.Size(78, 16);
             this.label6.TabIndex = 22;
             this.label6.Text = "AÇIKLAMA :";
             // 
@@ -500,10 +492,10 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(103, 149);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 17);
+            this.label7.Size = new System.Drawing.Size(105, 16);
             this.label7.TabIndex = 21;
             this.label7.Text = "GELİR TUTARI :";
             // 
@@ -511,10 +503,10 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(128, 112);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 17);
+            this.label8.Size = new System.Drawing.Size(79, 16);
             this.label8.TabIndex = 20;
             this.label8.Text = "GELİR TİPİ :";
             // 
@@ -522,10 +514,10 @@
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(167, 75);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 17);
+            this.label9.Size = new System.Drawing.Size(54, 16);
             this.label9.TabIndex = 18;
             this.label9.Text = "TARİH :";
             // 
@@ -533,10 +525,10 @@
             // 
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(167, 38);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(68, 17);
+            this.label10.Size = new System.Drawing.Size(56, 16);
             this.label10.TabIndex = 17;
             this.label10.Text = "FİŞ NO :";
             // 
@@ -567,6 +559,16 @@
             this.txtfisg.Size = new System.Drawing.Size(96, 20);
             this.txtfisg.TabIndex = 13;
             // 
+            // gelirBindingSource
+            // 
+            this.gelirBindingSource.DataMember = "Gelir";
+            this.gelirBindingSource.DataSource = this.kasa_Hareket_TakipDataSet;
+            // 
+            // kasa_Hareket_TakipDataSet
+            // 
+            this.kasa_Hareket_TakipDataSet.DataSetName = "Kasa_Hareket_TakipDataSet";
+            this.kasa_Hareket_TakipDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
@@ -592,12 +594,12 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gelirBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kasa_Hareket_TakipDataSet)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gelirBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kasa_Hareket_TakipDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
@@ -637,12 +639,12 @@
         private System.Windows.Forms.TextBox txtsearch;
         private System.Windows.Forms.Button btnsearch;
         private System.Windows.Forms.ErrorProvider errorProvider1;
-        private System.Windows.Forms.TextBox txttarih;
-        private System.Windows.Forms.TextBox txttarihg;
         private Kasa_Hareket_TakipDataSet kasa_Hareket_TakipDataSet;
         private System.Windows.Forms.BindingSource gelirBindingSource;
         private Kasa_Hareket_TakipDataSetTableAdapters.GelirTableAdapter gelirTableAdapter;
         private System.Windows.Forms.RichTextBox rtxtgelir;
         private System.Windows.Forms.RichTextBox rtxtgunc;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }

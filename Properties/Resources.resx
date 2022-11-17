@@ -121,14 +121,14 @@
   <data name="growth" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\growth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Technocrat (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Technocrat (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Adsız tasarım1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Adsız tasarım.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Technocrat (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Technocrat (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Technocrat (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Technocrat (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Technocrat (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Technocrat (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -168,6 +168,9 @@
   </data>
   <data name="accounting" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\accounting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Technocrat (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Technocrat (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="briefcase (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\briefcase (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,11 +226,17 @@
   <data name="Adsız tasarım2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Adsız tasarım1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="magnifying-glass (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Technocrat (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Technocrat (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\budget (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="briefcase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\briefcase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earphone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Technocrat (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Technocrat (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,14 +289,8 @@
   <data name="Technocrat (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Technocrat (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="briefcase" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\briefcase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maximize (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximize (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="earphone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\earphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Technocrat (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Technocrat (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wallet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,19 +313,19 @@
   <data name="Technocrat (5)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Technocrat (5)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Technocrat (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Technocrat (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="budget (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\budget (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="maximize (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximize (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Technocrat (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Technocrat (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="maximize (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximize (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="magnifying-glass (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\magnifying-glass (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TECHNOLOGY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TECHNOLOGY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
